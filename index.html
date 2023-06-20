@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="intro">
+        <div class="container">
+            <h2>Gulla, yashna hur O'zbekiston <br>Sendan ozod va obod vatan qolsin!</h2>
+            <p>Aziz bilimdonlar, o'z yurtingizga oid bilimlaringizni oshirish vaqti keldi. <br>
+            Savollarni diqqat bilan o'qing va qo'lizdan kelgancha javob berib qo'yuring.</p>
+            
+        </div>
+    </div>
+    <div class="result">
+        <div class="container">
+            <h1 class="score"></h1>
+            <p class="subtitle"></p>
+            <span></span>
+        </div>
+    </div>
+    <div class="quiz">
+        <div class="container">
+            <h2>Savollar</h2>
+
+            <form class="formcha">
+                <div class="card">
+                    <p class="savol">
+                        1. O'zbekiston Respublikasi mustaqilligi e'lon qilingan kun?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="A" id="a1">
+                        <label for="a1">1991-yil, 1-sentabr</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="B" id="b1">
+                        <label for="b1">1992-yil, 1-sentabr</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="C" id="c1" >
+                        <label for="c1">1991-yil, 31-avgust</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="savol">
+                        2. O'zbekiston Respublikasi Davlat bayrog'i qachon qabul qilingan?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="A" id="a2">
+                        <label for="a2">1992-yil, 18-iyul</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="B" id="b2" >
+                        <label for="b2">1991-yil, 18-noyabr</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="C" id="c2">
+                        <label for="c2">1990-yil, 8-dekabr</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="savol">
+                        3. O'zbekiston Respublikasi Davlat gerbi qachon qabul qilingan?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="A" id="a3" >
+                        <label for="a3">1992-yil, 2-iyul</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="B" id="b3">
+                        <label for="b3">1991-yil, 2-iyun</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="C" id="c3">
+                        <label for="c3">1990-yil, 2-aprel</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="savol">
+                        4. O'zbekiston Respublikasi Davlat madhiyasi qachon qabul qilingan?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="A" id="a4">
+                        <label for="a4">1992-yil, 8-dekabr</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="B" id="b4">
+                        <label for="b4">1992-yil, 2-iyul</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="C" id="c4" >
+                        <label for="c4">1991-yil, 10-dekabr</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        5. O'zbekiston Respublikasi Konstitutsiyasi qabul qilingan kun?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="A" id="a5" >
+                        <label for="a5">1992-yil, 8-dekabr</label >
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="B" id="b5">
+                        <label for="b5">1991-yil, 8-dekabr</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="C" id="c5">
+                        <label for="c5">1991-yil, 18-noyabr</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        6. O'zbekiston Respublikasi Davlat madhiyisi muallifi kim?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q6" value="A" id="a6">
+                        <label for="a6">Ahad Qayum</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q6" value="B" id="b6" >
+                        <label for="b6">Abdulla Oripov</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q6" value="C" id="c6">
+                        <label for="c6">Mutal Burhonov</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        7. O'zbek tiliga davlat tili maqomi berilgan kun?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q7" value="A" id="a7">
+                        <label for="a7">1989-yil 22-oktabr </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q7" value="B" id="b7" >
+                        <label for="b7">1998-yil 20-oktabr </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q7" value="C" id="c7">
+                        <label for="c7">1989-yil 21-oktabr </label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        8. O'zbekiston Respublikasi birinchi prezidenti?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q8" value="A" id="a8">
+                        <label for="a8">Sobir Rahimov</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q8" value="B" id="b8" >
+                        <label for="b8">Islom Karimov</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q8" value="C" id="c8">
+                        <label for="c8">Shavkat Mirziyoyev</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        9. O'zbekiston Respublikasi BMTga a'zo bo'lgan kun?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q9" value="A" id="a9" >
+                        <label for="a9">1992-yilning 2-mart</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q9" value="B" id="b9" >
+                        <label for="b9">1991 yilning 2-iyul</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q9" value="C" id="c9">
+                        <label for="c9">1992-yilning 20-aprel</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        10. O'zbekistonda 2008-yil qanday nom berilgan?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q10" value="A" id="a10">
+                        <label for="a10">Barkamol avlod yili</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q10" value="B" id="b10" >
+                        <label for="b10">Yoshlar yili</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q10" value="C" id="c10">
+                        <label for="c10">Kichik biznes va hususiy tadbirkorlik yili</label>
+                    </div>
+                </div>
+                    <button type="submit">Qabul</button>
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

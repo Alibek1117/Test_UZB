@@ -1,0 +1,110 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+
+body{
+    /* background-color: aquamarine; */
+    background-image: url(./img/1674684039_top-fon-com-p-fon-dlya-prezentatsii-uzbekistan-119.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.intro{
+    /* height: 250px; */
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.308);
+}
+.intro h2{
+    font-size: 40px;
+}
+.intro p{
+    font-size: 23px;
+}
+.result{
+    /* height: 250px; */
+    text-align: center;
+    /* border: 2px solid rgb(4, 224, 4); */
+    width: 700px;
+    margin: auto;
+}
+.score1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 216, 3);
+}
+.score2{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(5, 72, 216);
+}
+.score3{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(223, 19, 4);
+}
+.subtitle1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 119, 0);
+}
+.subtitle2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 33, 139);
+}
+.subtitle3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(124, 0, 0);
+}
+.quiz{
+    margin: auto;
+    /* border: 2px solid #666; */
+    background-color: #a3a1a170;
+    font-size: 22px;
+    /* width: 900px; */
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.quiz h2{
+    text-align: center;
+    margin-right: 200px;
+
+}
+.quiz p{
+    font-weight: 700;
+}
+.quiz button{
+    background-image: url(./img/flag.jpg);
+    background-size: contain;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-left: 80px; */
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    /* width: 200px; */
+    margin-left: 335px;
+    color: rgb(0, 0, 0);
+}
+span{
+    display: none;
+}
